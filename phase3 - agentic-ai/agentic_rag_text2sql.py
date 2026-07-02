@@ -96,7 +96,7 @@ vector_store = Chroma.from_documents(documents=documents, embedding=embeddings)
 
 retriever = vector_store.as_retriever()
 
-
+print()
 # ==========================================================
 # STEP 7 - USER QUESTION
 # ==========================================================
