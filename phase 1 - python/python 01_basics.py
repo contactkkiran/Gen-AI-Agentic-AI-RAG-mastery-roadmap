@@ -6,12 +6,6 @@
 
 # Mock embedding function: returns a fixed fake vector instead of calling a real embedding model
 # from curses.ascii import EM
-import json
-import os
-from math import sqrt
-from typing import Optional
-
-from numpy import negative, number
 
 # from regex import D
 
