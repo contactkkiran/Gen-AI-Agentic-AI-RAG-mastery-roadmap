@@ -1,0 +1,36 @@
+🧩 Step 1: What is Scikit-learn?
+• It’s a Python library for classical machine learning (not deep learning).
+• Think of it as a toolbox: regression, classification, clustering, preprocessing, pipelines.
+• Philosophy: simple, consistent API → fit(), predict(), score().
+
+🔹 Step 2: The Workflow
+Every ML project in Scikit-learn follows this 4-step flow:
+1. Import the model (e.g., LinearRegression, DecisionTreeClassifier).
+2. Prepare data (features X, labels y).
+3. Train the model → model.fit(X, y).
+4. Make predictions → model.predict(new_X).
+👉 This is the same across almost all algorithms, which makes learning easier.
+
+Linear Regression Definition
+
+Linear Regression Definition
+
+Linear Regression is a supervised machine learning algorithm that
+   learns the relationship between input features (X) and an output (y) by finding the best-fit straight line. It then uses that learned relationship to predict the output for new input values.
+
+Simple definition (easy to remember)
+
+Linear Regression learns a straight-line relationship between X and y and uses that line to predict future values.
+
+⸻
+
+Interview definition
+
+Linear Regression is a supervised learning algorithm used to predict a
+      continuous numerical value by fitting the best possible
+      straight line through the training data.
+
+Intuition of Linear Regression
+
+* Train (fit) – Learn the relationship between X (inputs) and y (outputs) from historical data.
+* Predict (predict) – Use the learned relationship to predict y for new values of X.

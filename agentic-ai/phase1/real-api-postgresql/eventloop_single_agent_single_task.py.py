@@ -17,7 +17,7 @@ DB_CONFIG = {
     "host": "localhost",
     "port": 5432,
     "user": "postgres",
-    "password": "your_postgres_password",
+    "password": "postgre",
     "database": "testdb",
 }
 
