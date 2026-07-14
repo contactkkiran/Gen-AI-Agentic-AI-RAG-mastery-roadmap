@@ -61,7 +61,7 @@ class Orchestrator:
         self.hr = HRAgent()
         self.it = ITAgent()
 
-    def  run_workflow(self, employee_name: str):
+    def run_workflow(self, employee_name: str):
         # Step 6a: Call HR Agent
         hr_result = self.hr.handle(employee_name)
         # Step 6b: Call IT Agent
