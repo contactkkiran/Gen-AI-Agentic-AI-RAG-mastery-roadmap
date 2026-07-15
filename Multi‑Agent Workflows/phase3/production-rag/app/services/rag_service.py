@@ -160,10 +160,11 @@ class RAGService:
             return
 
         # Display each retrieved document.
-        for result in results:
+        for rank, result in enumerate(results, start=1):
 
             score = max(float(result["score"]), 0.0)
 
+            print(f"Rank     : {rank}")
             print(f"Score    : {score:.2f}")
             print(f"Document : {result['document']['filename']}")
 
